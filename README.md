@@ -94,7 +94,7 @@ Positive: "The plot was brilliant and the acting was superb."
 
 Negative: "The movie was a total waste of time and very boring."
 
-📊 Results ComparisonModel 
+# 📊 Results ComparisonModel 
 Variant              Strategy                               Accuracy         
 
 CNN-Static           Pre-trained vectors are frozen           ~75%           
