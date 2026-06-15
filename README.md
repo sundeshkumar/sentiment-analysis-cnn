@@ -42,7 +42,7 @@ Bash
 pip install -r requirements.txt
 Create Data Folder: Create a folder named data in your project directory to store the dataset and word vectors.
 
-#📥 Data Download Links
+# 📥 Data Download Links
 1. Movie Review (MR) Dataset
 Download both files and save them inside the data/ folder:
 
@@ -55,14 +55,14 @@ Download Link: Kaggle - Google News Vectors
 
 Note: Extract the file and ensure it is named GoogleNews-vectors-negative300.bin inside your data/ folder.
 
-#🚀 How to Run
-Step 1: Verification
+# 🚀 How to Run
+## Step 1: Verification
 Check if the model architecture is correct:
 
 Bash
 
 python Check_CNN_Ar.py
-Step 2: Training (Static Model)
+## Step 2: Training (Static Model)
 Train the model with fixed Google News vectors:
 
 Bash
@@ -72,7 +72,7 @@ Output: Model saved as cnn_static_mr.pth.
 
 Visualization: Graph saved as training_results_static.png.
 
-Step 3: Training (Non-Static Model)
+## Step 3: Training (Non-Static Model)
 Train the model while fine-tuning the word vectors:
 
 Bash
@@ -82,7 +82,7 @@ Output: Model saved as cnn_non_static_mr.pth.
 
 Visualization: Graph saved as training_results_non_static.png.
 
-Step 4: Prediction (Live Testing)
+## Step 4: Prediction (Live Testing)
 Use the trained model to predict the sentiment of any custom sentence:
 
 Bash
