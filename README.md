@@ -42,7 +42,7 @@ Bash
 pip install -r requirements.txt
 Create Data Folder: Create a folder named data in your project directory to store the dataset and word vectors.
 
-📥 Data Download Links
+#📥 Data Download Links
 1. Movie Review (MR) Dataset
 Download both files and save them inside the data/ folder:
 
@@ -55,7 +55,7 @@ Download Link: Kaggle - Google News Vectors
 
 Note: Extract the file and ensure it is named GoogleNews-vectors-negative300.bin inside your data/ folder.
 
-🚀 How to Run
+#🚀 How to Run
 Step 1: Verification
 Check if the model architecture is correct:
 
